@@ -45,11 +45,34 @@ export default function Home() {
         <div className="work">
           <h3>Work Experience</h3>
           <div className="fourGrid">
+            <div className="fourGridDate">2022</div>
+            <div className="fourGridItem">
+              <b>Digital Marketing Specialist - Bar Association of Metropolitan St. Louis</b>
+              <br></br>
+              Write about whatever I did here. Not too much :)<br></br>
+              <a href="" class="link">Daily Egyptian App</a>
+            </div>
+          </div>
+          <br></br>
+          <div className="fourGrid">
+            <div className="fourGridDate">2021 - 2022</div>
+            <div className="fourGridItem">
+              <b>AmeriCorps VISTA - Cody Dieruf Foundation</b>
+              <br></br>
+              Write about whatever I did here. Not too much :)<br></br>
+              <a href="" class="link">Specialty License Plate</a>
+            </div>
+          </div>
+          <br></br>
+          <div className="fourGrid">
             <div className="fourGridDate">2020</div>
             <div className="fourGridItem">
-              <b>Creative Director - Saluki AdLab</b><br></br>
+              <b>Creative Director - Saluki AdLab</b>
+              <br></br>
               Write about whatever I did here. Not too much :)<br></br>
-              <p class="link">Daily Egyptian App</p>
+              <a href="" class="link">Daily Egyptian App</a>
+              <a href="" class="link">2020 Census Outreach</a>
+              <a href="" class="link">FroYo Website and Loyalty Program</a>
             </div>
           </div>
         </div>
