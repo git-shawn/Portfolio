@@ -50,7 +50,8 @@ export default function Home() {
               <b>Digital Marketing Specialist - Bar Association of Metropolitan St. Louis</b>
               <br></br>
               Write about whatever I did here. Not too much :)<br></br>
-              <a href="" class="link">Daily Egyptian App</a>
+              <a href="" class="link">Business Landing Page</a>
+              <a href="" class="link">App Landing Page</a>
             </div>
           </div>
           <br></br>
@@ -61,6 +62,7 @@ export default function Home() {
               <br></br>
               Write about whatever I did here. Not too much :)<br></br>
               <a href="" class="link">Specialty License Plate</a>
+              <a href="https://www.instagram.com/p/CUYVen_MjcB" class="link">Event Outreach</a>
             </div>
           </div>
           <br></br>
