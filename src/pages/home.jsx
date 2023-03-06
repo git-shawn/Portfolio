@@ -21,13 +21,20 @@ export default function Home() {
       <div className="thinContainer">
         <div className="aboutMe">
           <h2>Shawn Davis</h2>
-          <p class="subH2">
-            People focused digital communicator, marketer, and developer.
-          </p>
+          <p class="subH2">Digital MarCom Professional</p>
+          <br></br>
           <h3>About</h3>
-          <p>👋 I'm Shawn. I love creating people-focused digital experiences that are exciting, engaging, and inclusive.</p>
+          <p>
+            Hi, I'm Shawn.👋 I love creating people-focused messaging and
+            experiences that are exciting, engaging, creative, and inclusive.
+          </p>
         </div>
-        <div className="cv"></div>
+        <div className="education">
+          <h3>Education</h3>
+        </div>
+        <div className="work">
+          <h3>Work Experience</h3>
+        </div>
       </div>
     </>
   );

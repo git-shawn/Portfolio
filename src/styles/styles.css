@@ -46,6 +46,17 @@ h1 {
   margin: 0px;
 }
 
+h2,
+h3 {
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+p {
+  margin: 10px 0px;
+  opacity: 0.9;
+}
+
 /* Sections */
 .header {
   position: sticky;
