@@ -50,7 +50,7 @@ export default function Home() {
               <b>Digital Marketing Specialist - Bar Association of Metropolitan St. Louis</b>
               <br></br>
               Write about whatever I did here. Not too much :)<br></br>
-              <a href="" class="link">Business Landing Page</a>
+              <a href="https://www.bamsl.org/?pg=business" class="link">Business Landing Page</a>
               <a href="" class="link">App Landing Page</a>
             </div>
           </div>
