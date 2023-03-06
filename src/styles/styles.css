@@ -1,8 +1,8 @@
 /* CSS Variables */
 :root {
-  --color-bg: #464E47;
-  --color-text-main: #F1FFFA;
-  --color-primary: #96E6B3;
+  --color-bg: #464e47;
+  --color-text-main: #f1fffa;
+  --color-primary: #96e6b3;
   --color-highlight: #568259;
   --wrapper-height: 85vh;
   --image-max-width: 320px;
@@ -39,4 +39,27 @@ body {
 a {
   color: var(--color-text-main);
   text-decoration: none;
+}
+
+h1 {
+  font-size: 64px;
+  margin: 0px;
+}
+
+/* Sections */
+.header {
+  position: sticky;
+}
+
+.thinContainer {
+  padding: 115px 0px;
+  max-width: 500px;
+  -webkit-margin-start: auto;
+  margin-inline-start: auto;
+  -webkit-margin-end: auto;
+  margin-inline-end: auto;
+}
+
+.aboutMe {
+  line-height: 100%;
 }
