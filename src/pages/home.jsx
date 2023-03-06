@@ -24,16 +24,13 @@ export default function Home() {
   return (
     <>
       <h1 className="title">{hello}!</h1>
-      <div className="navigation">
-      </div>
-      <div className="instructions">
-        <h2>Using this project</h2>
-        <p>
-          This is the Glitch <strong>Hello React</strong> project. You can use
-          it to build your own app. See more info in the{" "}
-          <Link href="/about">About</Link> page, and check out README.md in the
-          editor for additional detail plus next steps you can take!
+      <div className="about-me">
+        <h2>Shawn Davis</h2>
+        <p class="subh2">
+          People focused digital communicator, marketer, and developer.
         </p>
+      </div>
+      <div className="cv">
       </div>
     </>
   );
