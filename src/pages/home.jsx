@@ -48,7 +48,8 @@ export default function Home() {
             <div className="fourGridDate">2020</div>
             <div className="fourGridItem">
               <b>Creative Director - Saluki AdLab</b><br></br>
-              Write about whatever I did here. Not too much :)
+              Write about whatever I did here. Not too much :)<br></br>
+              <p class="link">Daily Egyptian App</p>
             </div>
           </div>
         </div>

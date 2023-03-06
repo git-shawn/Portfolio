@@ -66,6 +66,20 @@ p {
 }
 
 .link {
+  text-decoration: wavy underline;
+  text-decoration-skip-ink: none;
+  text-underline-offset: 6px;
+}
+
+.link::after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  width: 12px;
+  height: 12px;
+  background: url('https://cdn.glitch.global/de491910-0060-4fe1-87cc-7ff32c7bf88e/linkArrow.svg?v=1678144329425') 0 0 no-repeat;
+  background-size: contain;
   
 }
 
