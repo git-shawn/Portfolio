@@ -46,15 +46,27 @@ h1 {
   margin: 0px;
 }
 
-h2,
-h3 {
-  margin-bottom: 0;
-  font-weight: normal;
-}
-
 p {
   margin: 10px 0px;
   opacity: 0.9;
+}
+
+.fourGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.fourGridDate {
+  grid-column: span 1 / span 1;
+  opacity: 0.5;
+}
+
+.fourGridItem {
+  grid-column: span 3 / span 3;
+}
+
+.link {
+  
 }
 
 /* Sections */

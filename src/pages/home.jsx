@@ -31,9 +31,26 @@ export default function Home() {
         </div>
         <div className="education">
           <h3>Education</h3>
+          <div className="fourGrid">
+            <div className="fourGridDate">2016 - 2020</div>
+            <div className="fourGridItem">
+              <b>Southern Illinois University</b>
+              <br></br>
+              Carbondale, Illinois<br></br>
+              B.S. Journalism (Advertising)<br></br>
+              Minor Computer Science
+            </div>
+          </div>
         </div>
         <div className="work">
           <h3>Work Experience</h3>
+          <div className="fourGrid">
+            <div className="fourGridDate">2020</div>
+            <div className="fourGridItem">
+              <b>Creative Director - Saluki AdLab</b><br></br>
+              Write about whatever I did here. Not too much :)
+            </div>
+          </div>
         </div>
       </div>
     </>
