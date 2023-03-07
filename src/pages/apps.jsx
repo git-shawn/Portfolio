@@ -5,7 +5,7 @@ export default function Apps() {
   return (
     <div className="thinContainer">
       <h1>Hi, I'm Shawn.</h1>
-      <p>I make native apps that I actually use for Apple devices. These apps are simple, lightweight, and respect your privacy.</p>
+      <p>I make native apps for Apple devices that respect your privacy.</p>
       <p className="alertBox">I am currently seeking volunteer opportunities to develop SwiftUI apps. <a className="primary" href="mailto:contact@fromshawn.dev">Contact me</a> if interested!</p>
       <div className="appGrid">
         {/* QR Pop */}
