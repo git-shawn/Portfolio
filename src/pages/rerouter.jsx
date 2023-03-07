@@ -2,8 +2,8 @@ import * as React from "react";
 
 export default function Rerouter() {
   return (
-    <div className="thinContainer">
-      <h1>
+    <div className="thinContainer invertedThin">
+      <h1 className="appTitle">
         <span className="blue">Rerouter</span> automatically opens all Google
         Maps links in Apple Maps.
       </h1>
@@ -49,6 +49,8 @@ export default function Rerouter() {
           Want some more control? Rerouter supports a manual mode, giving you
           the opportunity to chose everytime you come across a Google Maps link.
         </p>
+      </div>
+      <div className="rerouterHero">
       </div>
     </div>
   );

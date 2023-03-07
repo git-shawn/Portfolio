@@ -128,12 +128,21 @@ img.rounded {
 }
 
 .thinContainer {
-  padding: 115px 10px;
+  padding: 20px 20px 0px 20px;
   max-width: 500px;
+  margin: 115px 10px;
   -webkit-margin-start: auto;
   margin-inline-start: auto;
   -webkit-margin-end: auto;
   margin-inline-end: auto;
+}
+
+.invertedThin {
+  background-color: var(--color-text-main);
+  color: var(--color-bg);
+  border: 6px solid var(--rerouter-blue);
+  box-shadow: 0px 12px var(--rerouter-blue);
+  border-radius: 22px;
 }
 
 .aboutMe {
@@ -246,7 +255,7 @@ img.rounded {
   display: block;
   vertical-align: middle;
   margin: auto;
-  border: 2px solid var(--color-text-main);
+  border: 3px solid var(--color-bg);
   -webkit-transition: 0.2s ease-in-out;
   -moz-transition: 0.2s ease-in-out;
   -o-transition: 0.2s ease-in-out;
@@ -254,14 +263,28 @@ img.rounded {
 }
 
 .embededAppIcon:hover {
-  border-bottom-width: 5px;
+  box-shadow: 0px 6px var(--color-bg);
 }
 
 .embededAppIcon > img {
   width: 125px;
   height: 125px;
-  border-radius: 22%;
+  border-radius: 20%;
   overflow: hidden;
   display: inline-block;
   vertical-align: middle;
+}
+
+.rerouterHero {
+  margin-top: 20px;
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: top; 
+  background-size: 300px;
+  background-image: url("https://cdn.glitch.me/152a6969-d1bd-4ff2-a56b-a3740cd66096%2Fphone-mark-dark.png?v=1633580521467");
+}
+
+.appTitle {
+  font-size: 42px;
 }
