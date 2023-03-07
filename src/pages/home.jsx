@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "wouter";
+import TextLoop from "react-text-loop";
 
 export default function Home() {
   const [index, setIndex] = useState(0);
@@ -16,33 +17,6 @@ export default function Home() {
     "Hi!",
   ];
 
-  useEffect(() => {
-    if (index === words.length - 1 && subIndex === words[index].length) {
-      return;
-    }
-
-    if (
-      subIndex === words[index].length + 1 &&
-      index !== words.length - 1 &&
-      !reverse
-    ) {
-      setReverse(true);
-      return;
-    }
-
-    if (subIndex === 0 && reverse) {
-      setReverse(false);
-      setIndex((prev) => prev + 1);
-      return;
-    }
-
-    const timeout = setTimeout(() => {
-      setSubIndex((prev) => prev + (reverse ? -1 : 1));
-    }, Math.max(reverse ? 75 : subIndex === words[index].length ? 1000 : 150, parseInt(Math.random() * 350)));
-
-    return () => clearTimeout(timeout);
-  }, [subIndex, index, reverse]);
-
   return (
     <>
       <div className="thinContainer">
@@ -56,7 +30,17 @@ export default function Home() {
           <br></br>
           <h3>About</h3>
           <p>
-            {`${words[index].substring(0, subIndex)}`} I'm Shawn.👋
+            <TextLoop
+              children={[
+                "Hello!",
+                "¡Hola!",
+                "Salut!",
+                "你好!",
+                "Aloha!",
+                "Ciao!",
+              ]}
+            />{" "}
+            I'm Shawn.👋
             <br></br>I love creating people-focused messaging and experiences
             that are exciting, engaging, creative, and inclusive.
           </p>
@@ -169,8 +153,10 @@ export default function Home() {
                 <span>Figma</span>
                 <span>Market Research</span>
                 <span>Social Media</span>
+                <span>Salesforce</span>
                 <span>MailChimp</span>
                 <span>GA4</span>
+                <span>Project Management</span>
               </div>
               <a
                 href="https://breathinisbelievin.org/plate/"
@@ -219,6 +205,7 @@ export default function Home() {
                 <span>Social Media</span>
                 <span>MailChimp</span>
                 <span>GA4</span>
+                <span>Project Management</span>
               </div>
               <a
                 href="https://www.salukiadlab.com/post/the-daily-egyptian"

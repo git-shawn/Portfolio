@@ -105,6 +105,10 @@ p {
   transform: rotate(45deg);
 }
 
+.primary {
+  color: var(--color-primary);
+}
+
 img.rounded {
   object-fit: cover;
   border-radius: 50%;
