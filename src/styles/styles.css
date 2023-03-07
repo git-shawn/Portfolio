@@ -244,7 +244,7 @@ img.rounded {
 }
 
 .appIconContainer {
-  padding: 50px 0px;
+  padding-top: 50px;
 }
 
 .embededAppIcon {
@@ -283,7 +283,7 @@ img.rounded {
   background-repeat: no-repeat;
   background-position: top;
   background-size: 300px;
-  background-image: url("https://cdn.glitch.me/152a6969-d1bd-4ff2-a56b-a3740cd66096%2Fphone-mark-dark.png?v=1633580521467");
+  background-image: url("https://cdn.glitch.global/de491910-0060-4fe1-87cc-7ff32c7bf88e/phone-route-light.png?v=1678227631686");
 }
 
 .qrpopHero {
@@ -294,9 +294,26 @@ img.rounded {
   background-repeat: no-repeat;
   background-position: top;
   background-size: 300px;
-  background-image: url("https://cdn.glitch.me/152a6969-d1bd-4ff2-a56b-a3740cd66096%2Fqr-mock-dark.png?v=1633717173661");
+  background-image: url("https://cdn.glitch.global/de491910-0060-4fe1-87cc-7ff32c7bf88e/qr-route-light.png?v=1678227628725");
 }
 
 .appTitle {
   font-size: 32px;
+}
+
+.viewGithub > a > img {
+  width: 24px;
+}
+
+.viewGithub > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.viewGithub {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }

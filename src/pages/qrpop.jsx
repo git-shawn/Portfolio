@@ -19,6 +19,12 @@ export default function QRPop() {
             />
           </a>
         </div>
+        <div className="viewGithub">
+          <a href="https://github.com/git-shawn/QR-Pop">
+            <img src="https://cdn.glitch.global/de491910-0060-4fe1-87cc-7ff32c7bf88e/githubLogo.png?v=1678227758896" />
+            View Project on GitHub
+          </a>
+        </div>
         <div className="invertedBox" id="aboutApp">
           <h2>Description</h2>
           <p>

@@ -21,7 +21,10 @@ export default function Home() {
       <header className="header">
         <ul className="nav">
           <ActiveLink href="/">Home</ActiveLink>
+          |
           <ActiveLink href="/apps">Apps</ActiveLink>
+          |
+          <a href="mailto:contact@fromshawn.dev">Contact Me</a>
         </ul>
       </header>
       <main role="main" className="wrapper">
