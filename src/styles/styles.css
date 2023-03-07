@@ -54,6 +54,7 @@ p {
 .fourGrid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
 }
 
 .fourGridDate {
@@ -88,10 +89,14 @@ p {
 /* Sections */
 .header {
   position: sticky;
+  top: 0;
+  background-color: var(--color-bg);
+  padding: 20px 10px;
+  z-index: 99;
 }
 
 .thinContainer {
-  padding: 115px 0px;
+  padding: 115px 10px;
   max-width: 500px;
   -webkit-margin-start: auto;
   margin-inline-start: auto;

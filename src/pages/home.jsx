@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Link } from "wouter";
 
-const strings = ["Hello", "Salut", "Hola", "안녕", "Hej"];
+const strings = ["Hi", "Salut", "Hola", "안녕", "Hej"];
 
 function randomLanguage() {
   return strings[Math.floor(Math.random() * strings.length)];
@@ -15,9 +15,15 @@ export default function Home() {
     setHello(newHello);
   };
 
+  React.useEffect(() => {
+    const interval = setInterval(() => handleChangeHello(), 3000);
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
+
   return (
     <>
-      <h1 className="title">{hello}!</h1>
       <div className="thinContainer">
         <div className="aboutMe">
           <h2>Shawn Davis</h2>
@@ -25,7 +31,7 @@ export default function Home() {
           <br></br>
           <h3>About</h3>
           <p>
-            Hi, I'm Shawn.👋 I love creating people-focused messaging and
+            {hello}, I'm Shawn.👋 I love creating people-focused messaging and
             experiences that are exciting, engaging, creative, and inclusive.
           </p>
         </div>
@@ -47,11 +53,18 @@ export default function Home() {
           <div className="fourGrid">
             <div className="fourGridDate">2022</div>
             <div className="fourGridItem">
-              <b>Digital Marketing Specialist - Bar Association of Metropolitan St. Louis</b>
+              <b>
+                Digital Marketing Specialist - Bar Association of Metropolitan
+                St. Louis
+              </b>
               <br></br>
               Write about whatever I did here. Not too much :)<br></br>
-              <a href="https://www.bamsl.org/?pg=business" class="link">Business Landing Page</a>
-              <a href="" class="link">App Landing Page</a>
+              <a href="https://www.bamsl.org/?pg=business" class="link">
+                Business Landing Page
+              </a>
+              <a href="https://www.bamsl.org/?pg=BarFoundation" class="link">
+                Foundation Web Section
+              </a>
             </div>
           </div>
           <br></br>
@@ -61,8 +74,12 @@ export default function Home() {
               <b>AmeriCorps VISTA - Cody Dieruf Foundation</b>
               <br></br>
               Write about whatever I did here. Not too much :)<br></br>
-              <a href="" class="link">Specialty License Plate</a>
-              <a href="https://www.instagram.com/p/CUYVen_MjcB" class="link">Event Outreach</a>
+              <a href="" class="link">
+                Specialty License Plate
+              </a>
+              <a href="https://www.instagram.com/p/CUYVen_MjcB" class="link">
+                Event Outreach
+              </a>
             </div>
           </div>
           <br></br>
@@ -72,9 +89,24 @@ export default function Home() {
               <b>Creative Director - Saluki AdLab</b>
               <br></br>
               Write about whatever I did here. Not too much :)<br></br>
-              <a href="" class="link">Daily Egyptian App</a>
-              <a href="" class="link">2020 Census Outreach</a>
-              <a href="" class="link">FroYo Website and Loyalty Program</a>
+              <a
+                href="https://www.salukiadlab.com/post/the-daily-egyptian"
+                class="link"
+              >
+                Daily Egyptian App
+              </a>
+              <a
+                href="https://www.salukiadlab.com/post/community-health-partnership"
+                class="link"
+              >
+                2020 Census Outreach
+              </a>
+              <a
+                href="https://www.salukiadlab.com/post/cool-spoons"
+                class="link"
+              >
+                FroYo Website and Loyalty Program
+              </a>
             </div>
           </div>
         </div>
