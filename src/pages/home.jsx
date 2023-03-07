@@ -162,6 +162,15 @@ export default function Home() {
                 />
               </a>
             </div>
+            <div className="certItem">
+              <a href="https://cdn.glitch.global/de491910-0060-4fe1-87cc-7ff32c7bf88e/swiftFullCert.jpg?v=1678208575153">
+                <img
+                  className="rounded"
+                  alt="100 Days of Swift Certification"
+                  src="https://cdn.glitch.global/de491910-0060-4fe1-87cc-7ff32c7bf88e/100SwiftCert.png?v=1678208562805"
+                />
+              </a>
+            </div>
           </div>
         </div>
       </div>
