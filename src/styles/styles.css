@@ -32,6 +32,7 @@ html {
 body {
   font-family: var(--font-family);
   color: var(--color-text-main);
+    padding: 0px 10px;
 }
 
 ::selection {
@@ -276,6 +277,7 @@ img.rounded {
 
 .rerouterHero {
   margin-top: 20px;
+  margin-bottom: -25px;
   height: 400px;
   width: 100%;
   background-repeat: no-repeat;
@@ -286,6 +288,7 @@ img.rounded {
 
 .qrpopHero {
   margin-top: 20px;
+  margin-bottom: -25px;
   height: 400px;
   width: 100%;
   background-repeat: no-repeat;
