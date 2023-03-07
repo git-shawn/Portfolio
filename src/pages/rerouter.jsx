@@ -28,7 +28,16 @@ export default function Rerouter() {
         <div className="invertedBox" id="aboutApp">
           <h2>Description</h2>
           <p>
-            Rerouter is a simple Safari Extension t
+            Google is the easiest way to find businesses, restaurants, and
+            parks. But what if you want to use Apple Maps to get there? That
+            part isn't so easy.
+          </p>
+          <p>
+            Rerouter handles the mess by automatically opening Google Maps
+            directions in Apple Maps. It's a simple Safari Extension that runs
+            in the background and automatically redirects links to the native
+            Apple Maps app in a way that requires no work from you while still
+            respecting your privacy.
           </p>
         </div>
         <br></br>

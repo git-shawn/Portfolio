@@ -1,12 +1,24 @@
 import * as React from "react";
+import TextLoop from "react-text-loop";
 
 export default function QRPop() {
   return (
     <>
       <div className="thinContainer">
         <h1 className="appTitle">
-          <span className="orange">QR Pop</span> automatically opens all Google
-          Maps links in Apple Maps.
+          <span className="orange">QR Pop</span> is the easiest way to turn{" "}
+          <TextLoop
+            children={[
+              "links",
+              "contacts",
+              "wifi networks",
+              "calendar events",
+              "shortcuts",
+              "places",
+            ]}
+            springConfig={{ stiffness: 100, damping: 10 }}
+          />{" "}
+          into QR codes.
         </h1>
         <div className="appIconContainer">
           <a
@@ -28,11 +40,7 @@ export default function QRPop() {
         <div className="invertedBox" id="aboutApp">
           <h2>Description</h2>
           <p>
-            If you've ever tried to search for a business, park, or any other
-            location on Google, you likely already know the issue. There is no
-            way to open those results in Apple Maps. Go ahead, try it right now.
-            Rerouter aims to solve that issue by automatically rerouting Google
-            Maps links to iOS and macOS's built in maps app.
+            QR Pop is the easiest way to make QR codes for anything, anywhere.
           </p>
         </div>
         <br></br>
