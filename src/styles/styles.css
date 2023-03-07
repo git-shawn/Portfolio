@@ -41,9 +41,8 @@ a {
   text-decoration: none;
 }
 
-h1 {
-  font-size: 16px;
-  display: inline;
+h1, h2 {
+  margin: 0;
 }
 
 p {
@@ -55,6 +54,22 @@ p {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1em;
+}
+
+.centerGrid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fourGridPhoto {
+  grid-column: span 1 / span 1;
+}
+
+.fourGridPhoto > img {
+  max-width: 80%;
+  margin: auto;
+  border-radius: 50%;
 }
 
 .fourGridDate {

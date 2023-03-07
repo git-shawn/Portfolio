@@ -27,10 +27,7 @@ export default function Home() {
       <div className="thinContainer">
         <div className="aboutMe">
           <div className="fourGrid">
-            <div className="fourGridPhoto">
-            
-            </div>
-            <div className="fourGridItem">
+            <div className="fourGridItem centerGrid">
               <h2>Shawn Davis</h2>
               <p class="subH2">Digital MarCom Professional</p>
             </div>
