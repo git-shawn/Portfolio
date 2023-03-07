@@ -26,9 +26,15 @@ export default function Home() {
     <>
       <div className="thinContainer">
         <div className="aboutMe">
-          <img src=""></img>
-          <h2>Shawn Davis</h2>
-          <p class="subH2">Digital MarCom Professional</p>
+          <div className="fourGrid">
+            <div className="fourGridPhoto">
+            
+            </div>
+            <div className="fourGridItem">
+              <h2>Shawn Davis</h2>
+              <p class="subH2">Digital MarCom Professional</p>
+            </div>
+          </div>
           <br></br>
           <h3>About</h3>
           <p>
@@ -41,7 +47,7 @@ export default function Home() {
           <div className="fourGrid">
             <div className="fourGridDate">
               2016 - 2020<br></br>
-            <span class="location">Carbondale, IL</span>
+              <span class="location">Carbondale, IL</span>
             </div>
             <div className="fourGridItem">
               <b>Southern Illinois University</b>
