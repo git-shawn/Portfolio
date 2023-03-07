@@ -112,6 +112,8 @@ p {
 .header {
   position: sticky;
   top: 0;
+  padding-top: 6px;
+  padding-bottom: 6px;
   background-color: var(--color-bg);
   z-index: 99;
 }
@@ -127,13 +129,13 @@ p {
 
 .aboutMe {
   line-height: 100%;
+  margin-block-start: 0;
 }
 
 .nav {
-  list-style: none;
+  padding-inline-start: 15px;
   cursor: default;
   width: auto;
-  height: 44px;
   display: flex;
   gap: 10px;
   user-select: none;
