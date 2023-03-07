@@ -72,7 +72,16 @@ p {
   grid-column: span 3 / span 3;
 }
 
-.linkArrow {
+.wavy {
+  display: block;
+  -webkit-text-decoration: wavy underline;
+  text-decoration: wavy underline;
+  text-decoration-skip-ink: none;
+  text-underline-offset: 6px;
+  line-height: 200%;
+}
+
+.wavy::after {
   content: "";
   display: inline-block;
   vertical-align: middle;
@@ -82,6 +91,17 @@ p {
   background: url("https://cdn.glitch.global/de491910-0060-4fe1-87cc-7ff32c7bf88e/linkArrow.svg")
     0 0 no-repeat;
   background-size: contain;
+}
+
+.wavy:hover:after {
+  animation: shake 1.2s infinite;
+  animation-timing-function: linear; 
+}
+
+@keyframes shake {
+  0% { transform: rotate(10deg); }
+  50% { transform: rotate(-10deg); }
+  100% { transform: rotate(10deg); }
 }
 
 img.rounded {
@@ -139,39 +159,6 @@ img.rounded {
 
 .certItem {
   grid-column: span 1 / span 1;
-}
-
-.wavy {
-	text-decoration: none;
-	position: relative;
-	padding-bottom: 1em;
-	overflow: hidden;
-	color: var(--color-text-main);
-}
-
-.wavy::after{
-  	position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		white-space: nowrap;
-		content: attr(data-text);
-		color: transparent;
-		line-height: 1.8;
-		text-decoration: underline;
-		text-decoration-style: wavy;
-		text-decoration-color: var(--color-text-main);
-}
-
-.wavy:hover:after {
-  animation: wavy-slide 3s linear infinite;
-}
-
-@keyframes wavy-slide {
-	to {
-		margin-left: -51%;
-	}
 }
 
 .skillPills {
