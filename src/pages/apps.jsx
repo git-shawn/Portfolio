@@ -10,7 +10,9 @@ export default function Apps() {
         Welcome to the Glitch React starter, where you can instantly create a
         React site that's fully customizable.
       </p>
-      
+      <div className="appGrid">
+      <p>Hello!</p>
+      </div>
     </div>
   );
 }

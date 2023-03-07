@@ -170,3 +170,7 @@ img.rounded {
   text-transform: uppercase;
   font-size: 12px;
 }
+
+.appGrid {
+  background-color: var(--color-text-main);
+}
