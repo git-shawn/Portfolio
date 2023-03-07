@@ -142,7 +142,7 @@ export default function Home() {
         </div>
         <br></br>
         <div>
-          <h3>Work Experience</h3>
+          <h3>Certifications</h3>
           <div className="certGrid">
             <div className="certItem">
               <a href="https://skillshop.credential.net/2d72e39e-9cd3-449f-ad50-bf539b182cbb#gs.rdkc2o">
@@ -150,6 +150,15 @@ export default function Home() {
                   className="rounded"
                   alt="Google Analytics Certification"
                   src="https://cdn.glitch.global/de491910-0060-4fe1-87cc-7ff32c7bf88e/gacert.png?v=1678206954987"
+                />
+              </a>
+            </div>
+            <div className="certItem">
+              <a href="https://skillshop.exceedlms.com/student/award/qEkwWJxnqxVy9G9b8P7tcSV8">
+                <img
+                  className="rounded"
+                  alt="Google Ads - Measurement Certification"
+                  src="https://cdn.glitch.global/de491910-0060-4fe1-87cc-7ff32c7bf88e/gAdsCert.png?v=1678207622285"
                 />
               </a>
             </div>
