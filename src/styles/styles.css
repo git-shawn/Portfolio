@@ -301,6 +301,16 @@ img.rounded {
   font-size: 32px;
 }
 
+.iconHref > img {
+  width: 20px;
+  margin-right: 0.5em;
+}
+
+.iconHref {
+  display: flex;
+  align-items: center;
+}
+
 .viewGithub > a > img {
   width: 24px;
 }

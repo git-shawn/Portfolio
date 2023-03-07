@@ -6,7 +6,15 @@ export default function Home() {
   const [subIndex, setSubIndex] = useState(0);
   const [reverse, setReverse] = useState(false);
 
-  const words = ["Hello!", "¡Hola!", "Salut!", "你好!", "Aloha!", "Ciao!", "Hi!"];
+  const words = [
+    "Hello!",
+    "¡Hola!",
+    "Salut!",
+    "你好!",
+    "Aloha!",
+    "Ciao!",
+    "Hi!",
+  ];
 
   useEffect(() => {
     if (index === words.length - 1 && subIndex === words[index].length) {
@@ -49,10 +57,8 @@ export default function Home() {
           <h3>About</h3>
           <p>
             {`${words[index].substring(0, subIndex)}`} I'm Shawn.👋
-            <br></br>
-            I love
-            creating people-focused messaging and experiences that are exciting,
-            engaging, creative, and inclusive.
+            <br></br>I love creating people-focused messaging and experiences
+            that are exciting, engaging, creative, and inclusive.
           </p>
         </div>
         <div id="education">
@@ -70,6 +76,9 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        {/* Volunteer */}
+
         <div id="volunteer">
           <h3>Volunteerism</h3>
           <div className="fourGrid">
@@ -90,8 +99,14 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        {/* Work Experience */}
+
         <div id="work">
           <h3>Work Experience</h3>
+
+          {/* BAMSL */}
+
           <div className="fourGrid">
             <div className="fourGridDate">
               2022<br></br>
@@ -131,6 +146,9 @@ export default function Home() {
             </div>
           </div>
           <br></br>
+
+          {/* CDF */}
+
           <div className="fourGrid">
             <div className="fourGridDate">
               2021 - 2022<br></br>
@@ -175,6 +193,9 @@ export default function Home() {
             </div>
           </div>
           <br></br>
+
+          {/* AdLab */}
+
           <div className="fourGrid">
             <div className="fourGridDate">
               2020<br></br>
@@ -221,6 +242,9 @@ export default function Home() {
           </div>
         </div>
         <br></br>
+
+        {/* Certifications */}
+
         <div id="certs">
           <h3>Certifications</h3>
           <div className="certGrid">
@@ -252,6 +276,16 @@ export default function Home() {
               </a>
             </div>
           </div>
+        </div>
+
+        {/* Outbound Links */}
+        
+        <div id="links">
+          <h3>Links</h3>
+          <a href="https://github.com/git-shawn" className="iconHref wavy">
+            <img src="https://cdn.glitch.global/de491910-0060-4fe1-87cc-7ff32c7bf88e/githubLogo.png?v=1678227758896" />
+            GitHub
+          </a>
         </div>
       </div>
     </>
