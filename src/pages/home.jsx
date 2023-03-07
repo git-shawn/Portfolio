@@ -79,6 +79,12 @@ export default function Home() {
               <b>Cody Dieruf Foundation</b>
               <br></br>
               WordPress content management and general maintenance
+              <div className="skillPills">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>WordPress</span>
+              </div>
             </div>
           </div>
         </div>
@@ -103,6 +109,7 @@ export default function Home() {
                 <span>JavaScript</span>
                 <span>Social Media</span>
                 <span>Adobe Suite</span>
+                <span>Copywriting</span>
                 <span>Email</span>
                 <span>GA4</span>
               </div>
@@ -130,7 +137,9 @@ export default function Home() {
                 <span>CSS</span>
                 <span>JavaScript</span>
                 <span>WordPress</span>
+                <span>Copywriting</span>
                 <span>Canva</span>
+                <span>Figma</span>
                 <span>Market Research</span>
                 <span>Social Media</span>
                 <span>MailChimp</span>
@@ -160,7 +169,21 @@ export default function Home() {
               <b>Creative Director - Saluki AdLab</b>
               <br></br>
               Worked alongside a team of student creatives and marketers to
-              deliver high-quality advertising services to clients.<br></br>
+              deliver high-quality advertising services to clients.
+              <div className="skillPills">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>React Native</span>
+                <span>Adobe Suite</span>
+                <span>Final Cut Pro</span>
+                <span>Media Buying</span>
+                <span>Market Research</span>
+                <span>Copywriting</span>
+                <span>Social Media</span>
+                <span>MailChimp</span>
+                <span>GA4</span>
+              </div>
               <a
                 href="https://www.salukiadlab.com/post/the-daily-egyptian"
                 class="link"
