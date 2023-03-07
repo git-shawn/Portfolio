@@ -128,7 +128,7 @@ img.rounded {
 }
 
 .thinContainer {
-  padding: 20px 20px 0px 20px;
+  /*   padding: 20px 20px 0px 20px; */
   max-width: 500px;
   margin: 115px 10px;
   -webkit-margin-start: auto;
@@ -137,12 +137,11 @@ img.rounded {
   margin-inline-end: auto;
 }
 
-.invertedThin {
+.invertedBox {
   background-color: var(--color-text-main);
   color: var(--color-bg);
-  border: 6px solid var(--rerouter-blue);
-  box-shadow: 0px 12px var(--rerouter-blue);
   border-radius: 22px;
+  padding: 20px;
 }
 
 .aboutMe {
@@ -250,12 +249,12 @@ img.rounded {
 .embededAppIcon {
   width: 125px;
   height: 125px;
-  border-radius: 22%;
+  border-radius: 26px;
   overflow: hidden;
   display: block;
   vertical-align: middle;
   margin: auto;
-  border: 3px solid var(--color-bg);
+  border: 3px solid var(--color-text-main);
   -webkit-transition: 0.2s ease-in-out;
   -moz-transition: 0.2s ease-in-out;
   -o-transition: 0.2s ease-in-out;
@@ -263,13 +262,13 @@ img.rounded {
 }
 
 .embededAppIcon:hover {
-  box-shadow: 0px 6px var(--color-bg);
+  box-shadow: 0px 6px var(--color-text-main);
 }
 
 .embededAppIcon > img {
   width: 125px;
   height: 125px;
-  border-radius: 20%;
+  border-radius: 20px;
   overflow: hidden;
   display: inline-block;
   vertical-align: middle;
@@ -280,11 +279,21 @@ img.rounded {
   height: 400px;
   width: 100%;
   background-repeat: no-repeat;
-  background-position: top; 
+  background-position: top;
   background-size: 300px;
   background-image: url("https://cdn.glitch.me/152a6969-d1bd-4ff2-a56b-a3740cd66096%2Fphone-mark-dark.png?v=1633580521467");
 }
 
+.qrpopHero {
+  margin-top: 20px;
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 300px;
+  background-image: url("https://cdn.glitch.me/152a6969-d1bd-4ff2-a56b-a3740cd66096%2Fqr-mock-dark.png?v=1633717173661");
+}
+
 .appTitle {
-  font-size: 42px;
+  font-size: 32px;
 }
