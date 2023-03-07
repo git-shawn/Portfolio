@@ -68,36 +68,17 @@ p {
 
 .link {
   display: block;
-  text-decoration: none;
-	position: relative;
-	overflow: hidden;
-  &:after {
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		white-space: nowrap;
-		content: attr(data-text)attr(data-text);
-		color: transparent;
-		line-height: 1.8;
-		text-decoration: underline;
-    text-underline-offset: 6px;
-		text-decoration-style: wavy;
-		text-decoration-color: var(--color-text-main);
-	}
-	&:hover:after {
-		animation: wavy-slide 3s linear infinite;
-	}
+  text-decoration: wavy underline;
+  text-decoration-skip-ink: none;
+  text-underline-offset: 6px;
+  line-height: 200%;
 }
 
-@keyframes wavy-slide {
-	to {
-		margin-left: -51%;
-	}
+.link:hover {
+  color: var(--color-primary);
 }
 
-/* .link::after {
+.link::after {
   content: "";
   display: inline-block;
   vertical-align: middle;
@@ -106,8 +87,11 @@ p {
   height: 12px;
   background: url('https://cdn.glitch.global/de491910-0060-4fe1-87cc-7ff32c7bf88e/linkArrow.svg?v=1678144329425') 0 0 no-repeat;
   background-size: contain;
-  
-} */
+}
+
+.link::after:hover {
+  background-color: var(--color-primary);
+}
 
 /* Sections */
 .header {
