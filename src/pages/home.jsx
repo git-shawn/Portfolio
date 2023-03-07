@@ -8,7 +8,6 @@ export default function Home() {
   
   const words = ["Hello", "Hola", "Salut", "你好", "Aloha", "Ciao", "Hi"];
 
-  // typeWriter
   useEffect(() => {
     if (index === words.length - 1 && subIndex === words[index].length) {
       return;
