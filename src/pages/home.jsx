@@ -38,11 +38,13 @@ export default function Home() {
         <div className="education">
           <h3>Education</h3>
           <div className="fourGrid">
-            <div className="fourGridDate">2016 - 2020</div>
+            <div className="fourGridDate">
+              2016 - 2020<br></br>
+            <span class="location">Carbondale, IL</span>
+            </div>
             <div className="fourGridItem">
               <b>Southern Illinois University</b>
               <br></br>
-              Carbondale, Illinois<br></br>
               B.S. Journalism (Advertising)<br></br>
               Minor Computer Science
             </div>
@@ -51,7 +53,10 @@ export default function Home() {
         <div className="work">
           <h3>Work Experience</h3>
           <div className="fourGrid">
-            <div className="fourGridDate">2022</div>
+            <div className="fourGridDate">
+              2022<br></br>
+              <span class="location">St. Louis, MO</span>
+            </div>
             <div className="fourGridItem">
               <b>
                 Digital Marketing Specialist - Bar Association of Metropolitan
@@ -69,11 +74,14 @@ export default function Home() {
           </div>
           <br></br>
           <div className="fourGrid">
-            <div className="fourGridDate">2021 - 2022</div>
+            <div className="fourGridDate">
+              2021 - 2022<br></br>
+              <span class="location">Bozeman, MT</span>
+            </div>
             <div className="fourGridItem">
               <b>AmeriCorps VISTA - Cody Dieruf Foundation</b>
               <br></br>
-              Write about whatever I did here. Not too much :)<br></br>
+              Created outreach materials and strategies for<br></br>
               <a href="https://breathinisbelievin.org/plate/" class="link">
                 Specialty License Plate
               </a>
@@ -84,11 +92,15 @@ export default function Home() {
           </div>
           <br></br>
           <div className="fourGrid">
-            <div className="fourGridDate">2020</div>
+            <div className="fourGridDate">
+              2020<br></br>
+              <span class="location">Carbondale, IL</span>
+            </div>
             <div className="fourGridItem">
               <b>Creative Director - Saluki AdLab</b>
               <br></br>
-              Write about whatever I did here. Not too much :)<br></br>
+              Worked alongside a team of student creatives and marketers to
+              deliver high-quality advertising services to clients.<br></br>
               <a
                 href="https://www.salukiadlab.com/post/the-daily-egyptian"
                 class="link"
@@ -105,7 +117,7 @@ export default function Home() {
                 href="https://www.salukiadlab.com/post/cool-spoons"
                 class="link"
               >
-                FroYo Website and Loyalty Program
+                Cool Spoons Online
               </a>
             </div>
           </div>
