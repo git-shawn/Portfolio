@@ -95,7 +95,17 @@ export default function Home() {
                 St. Louis
               </b>
               <br></br>
-              Write about whatever I did here. Not too much :)<br></br>
+              Implemented GA4, created engaging web experiences, enhanced email
+              marketing, and developed social media content calendars.
+              <div className="skillPills">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Social Media</span>
+                <span>Adobe Suite</span>
+                <span>Email</span>
+                <span>GA4</span>
+              </div>
               <a href="https://www.bamsl.org/?pg=business" class="link">
                 Business Landing Page
               </a>
@@ -113,11 +123,26 @@ export default function Home() {
             <div className="fourGridItem">
               <b>AmeriCorps VISTA - Cody Dieruf Foundation</b>
               <br></br>
-              Created outreach materials and strategies for<br></br>
+              Created marketing materials and strategies targeting both donors
+              and constituents.
+              <div className="skillPills">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>WordPress</span>
+                <span>Canva</span>
+                <span>Market Research</span>
+                <span>Social Media</span>
+                <span>MailChimp</span>
+                <span>GA4</span>
+              </div>
               <a href="https://breathinisbelievin.org/plate/" class="link">
                 Specialty License Plate
               </a>
-              <a href="https://breathinisbelievin.org/pages/wp-content/uploads/2021/07/CDF-Brochure.pdf" class="link">
+              <a
+                href="https://breathinisbelievin.org/pages/wp-content/uploads/2021/07/CDF-Brochure.pdf"
+                class="link"
+              >
                 Outreach Materials
               </a>
               <a href="https://www.instagram.com/p/CUYVen_MjcB" class="link">
