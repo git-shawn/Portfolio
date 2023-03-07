@@ -4,8 +4,8 @@
   --color-text-main: #f1fffa;
   --color-primary: #96e6b3;
   --color-highlight: #568259;
-  --rerouter-blue: #3496FF;
-  --qrpop-orange: #FF861A;
+  --rerouter-blue: #3496ff;
+  --qrpop-orange: #ff861a;
   --wrapper-height: 85vh;
   --image-max-width: 320px;
   --font-family: "HK Grotesk";
@@ -228,4 +228,22 @@ img.rounded {
 
 .orange {
   color: var(--qrpop-orange);
+}
+
+.embededAppIcon {
+  width: 140px;
+  height: 140px;
+  border-radius: 20%;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.embededAppIcon > img {
+  width: 140px;
+  height: 140px;
+  border-radius: 20%;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
 }
