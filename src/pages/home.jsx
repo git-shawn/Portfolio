@@ -1,26 +1,7 @@
 import * as React from "react";
 import { Link } from "wouter";
 
-const strings = ["Hi", "Salut", "Hola", "안녕", "Hej"];
-
-function randomLanguage() {
-  return strings[Math.floor(Math.random() * strings.length)];
-}
-
 export default function Home() {
-  const [hello, setHello] = React.useState(strings[0]);
-
-  const handleChangeHello = () => {
-    const newHello = randomLanguage();
-    setHello(newHello);
-  };
-
-  React.useEffect(() => {
-    const interval = setInterval(() => handleChangeHello(), 3000);
-    return () => {
-      clearInterval(interval);
-    };
-  }, []);
 
   return (
     <>
@@ -35,7 +16,7 @@ export default function Home() {
           <br></br>
           <h3>About</h3>
           <p>
-            {hello}, I'm Shawn.👋 I love creating people-focused messaging and
+            Hi, I'm Shawn.👋 I love creating people-focused messaging and
             experiences that are exciting, engaging, creative, and inclusive.
           </p>
         </div>

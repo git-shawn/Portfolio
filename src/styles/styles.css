@@ -41,7 +41,8 @@ a {
   text-decoration: none;
 }
 
-h1, h2 {
+h1,
+h2 {
   margin: 0;
 }
 
@@ -102,7 +103,8 @@ p {
   margin-left: 10px;
   width: 12px;
   height: 12px;
-  background: url('https://cdn.glitch.global/de491910-0060-4fe1-87cc-7ff32c7bf88e/linkArrow.svg?v=1678144329425') 0 0 no-repeat;
+  background: url("https://cdn.glitch.global/de491910-0060-4fe1-87cc-7ff32c7bf88e/linkArrow.svg?v=1678144329425")
+    0 0 no-repeat;
   background-size: contain;
 }
 
@@ -111,8 +113,6 @@ p {
   position: sticky;
   top: 0;
   background-color: var(--color-bg);
-  padding: 20px 10px;
-  margin: 0;
   z-index: 99;
 }
 
@@ -127,4 +127,15 @@ p {
 
 .aboutMe {
   line-height: 100%;
+}
+
+.nav {
+  list-style: none;
+  cursor: default;
+  width: auto;
+  height: 44px;
+  display: flex;
+  gap: 10px;
+  user-select: none;
+  list-style: none;
 }

@@ -10,11 +10,10 @@ export default function Home() {
     <Router>
       <Seo />
       <header className="header">
-        <h1>Shawn Davis</h1>
-        <div className="nav">
+        <ul className="nav">
           <Link href="/">Home</Link>
           <Link href="/apps">Apps</Link>
-        </div>
+        </ul>
       </header>
       <main role="main" className="wrapper">
         <div className="content">
