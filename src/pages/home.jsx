@@ -5,7 +5,7 @@ export default function Home() {
   const [index, setIndex] = useState(0);
   const [subIndex, setSubIndex] = useState(0);
   const [reverse, setReverse] = useState(false);
-  
+
   const words = ["Hello", "Hola", "Salut", "你好", "Aloha", "Ciao", "Hi"];
 
   useEffect(() => {
@@ -40,7 +40,7 @@ export default function Home() {
       <div className="thinContainer">
         <div className="aboutMe">
           <div className="fourGrid">
-            <div className="fourGridItem centerGrid">
+            <div className="fourGridItem">
               <h2>Shawn Davis</h2>
               <p class="subH2">Digital MarCom Professional</p>
             </div>
@@ -48,8 +48,9 @@ export default function Home() {
           <br></br>
           <h3>About</h3>
           <p>
-            {`${words[index].substring(0, subIndex)}`}, I'm Shawn.👋 I love creating people-focused messaging and
-            experiences that are exciting, engaging, creative, and inclusive.
+            {`${words[index].substring(0, subIndex)}`}, I'm Shawn.👋 I love
+            creating people-focused messaging and experiences that are exciting,
+            engaging, creative, and inclusive.
           </p>
         </div>
         <div className="education">
@@ -139,8 +140,20 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="certs">
-        <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/66917739"/>
+        <br></br>
+        <div>
+          <h3>Work Experience</h3>
+          <div className="certGrid">
+            <div className="certItem">
+              <a href="https://skillshop.credential.net/2d72e39e-9cd3-449f-ad50-bf539b182cbb#gs.rdkc2o">
+                <img
+                  className="rounded"
+                  alt="Google Analytics Certification"
+                  src="https://cdn.glitch.global/de491910-0060-4fe1-87cc-7ff32c7bf88e/gacert.png?v=1678206954987"
+                />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </>
