@@ -6,7 +6,7 @@ export default function Home() {
   const [subIndex, setSubIndex] = useState(0);
   const [reverse, setReverse] = useState(false);
 
-  const words = ["Hello", "Hola", "Salut", "你好", "Aloha", "Ciao", "Hi"];
+  const words = ["Hello!", "¡Hola!", "Salut!", "你好!", "Aloha!", "Ciao!", "Hi!"];
 
   useEffect(() => {
     if (index === words.length - 1 && subIndex === words[index].length) {
@@ -41,14 +41,16 @@ export default function Home() {
         <div className="aboutMe">
           <div className="fourGrid">
             <div className="fourGridItem">
-              <h2>Shawn Davis</h2>
+              <h1>Shawn Davis</h1>
               <p className="subH2">Digital MarCom Professional</p>
             </div>
           </div>
           <br></br>
           <h3>About</h3>
           <p>
-            {`${words[index].substring(0, subIndex)}`}, I'm Shawn.👋 I love
+            {`${words[index].substring(0, subIndex)}`} I'm Shawn.👋
+            <br></br>
+            I love
             creating people-focused messaging and experiences that are exciting,
             engaging, creative, and inclusive.
           </p>
