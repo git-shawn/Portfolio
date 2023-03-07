@@ -4,6 +4,8 @@
   --color-text-main: #f1fffa;
   --color-primary: #96e6b3;
   --color-highlight: #568259;
+  --rerouter-blue: #3496FF;
+  --qrpop-orange: #FF861A;
   --wrapper-height: 85vh;
   --image-max-width: 320px;
   --font-family: "HK Grotesk";
@@ -91,7 +93,7 @@ p {
   background: url("https://cdn.glitch.global/de491910-0060-4fe1-87cc-7ff32c7bf88e/linkArrow.svg")
     0 0 no-repeat;
   background-size: contain;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.25s ease-in-out;
 }
 
 .wavy:hover:after {
@@ -218,4 +220,12 @@ img.rounded {
 .appMeta {
   margin: auto 0;
   grid-column: span 2 / span 2;
+}
+
+.blue {
+  color: var(--rerouter-blue);
+}
+
+.orange {
+  color: var(--qrpop-orange);
 }

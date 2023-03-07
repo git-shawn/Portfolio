@@ -12,7 +12,7 @@ export default function Apps() {
         
         {/* QR Pop */}
         
-        <Link href="/">
+        <Link href="/qrpop">
           <div className="appInfo">
             <div className="appIcon">
               <img
@@ -29,7 +29,7 @@ export default function Apps() {
         
         {/* Rerouter */}
         
-        <Link href="/">
+        <Link href="/rerouter">
           <div className="appInfo">
             <div className="appIcon">
               <img
