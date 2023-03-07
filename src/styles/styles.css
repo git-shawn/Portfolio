@@ -108,6 +108,12 @@ p {
   background-size: contain;
 }
 
+.nav > a.active {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  font-weight: bold;
+}
+
 /* Sections */
 .header {
   position: sticky;

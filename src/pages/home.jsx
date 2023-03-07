@@ -139,6 +139,9 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="certs">
+        <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/66917739"/>
+        </div>
       </div>
     </>
   );
