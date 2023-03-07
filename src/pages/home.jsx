@@ -26,6 +26,7 @@ export default function Home() {
     <>
       <div className="thinContainer">
         <div className="aboutMe">
+          <img src=""></img>
           <h2>Shawn Davis</h2>
           <p class="subH2">Digital MarCom Professional</p>
           <br></br>
