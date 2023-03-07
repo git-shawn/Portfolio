@@ -97,6 +97,7 @@ img.rounded {
   border-radius: 50%;
   height: 100px;
   width: 100px;
+  border: 1px solid var(--color-text-main);
 }
 
 .nav > a.active {

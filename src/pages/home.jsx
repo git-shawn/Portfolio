@@ -53,7 +53,7 @@ export default function Home() {
             engaging, creative, and inclusive.
           </p>
         </div>
-        <div className="education">
+        <div id="education">
           <h3>Education</h3>
           <div className="fourGrid">
             <div className="fourGridDate">
@@ -68,7 +68,21 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="work">
+        <div id="volunteer">
+          <h3>Volunteerism</h3>
+          <div className="fourGrid">
+            <div className="fourGridDate">
+              2022 - Now<br></br>
+              <span class="location">Remote</span>
+            </div>
+            <div className="fourGridItem">
+              <b>Cody Dieruf Foundation</b>
+              <br></br>
+              WordPress content management and general maintenance
+            </div>
+          </div>
+        </div>
+        <div id="work">
           <h3>Work Experience</h3>
           <div className="fourGrid">
             <div className="fourGridDate">
@@ -103,8 +117,11 @@ export default function Home() {
               <a href="https://breathinisbelievin.org/plate/" class="link">
                 Specialty License Plate
               </a>
+              <a href="https://breathinisbelievin.org/pages/wp-content/uploads/2021/07/CDF-Brochure.pdf" class="link">
+                Outreach Materials
+              </a>
               <a href="https://www.instagram.com/p/CUYVen_MjcB" class="link">
-                Event Outreach
+                Direct Marketing
               </a>
             </div>
           </div>
@@ -141,7 +158,7 @@ export default function Home() {
           </div>
         </div>
         <br></br>
-        <div>
+        <div id="certs">
           <h3>Certifications</h3>
           <div className="certGrid">
             <div className="certItem">
