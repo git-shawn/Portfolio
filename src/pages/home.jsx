@@ -74,7 +74,7 @@ export default function Home() {
               <b>AmeriCorps VISTA - Cody Dieruf Foundation</b>
               <br></br>
               Write about whatever I did here. Not too much :)<br></br>
-              <a href="" class="link">
+              <a href="https://breathinisbelievin.org/plate/" class="link">
                 Specialty License Plate
               </a>
               <a href="https://www.instagram.com/p/CUYVen_MjcB" class="link">
