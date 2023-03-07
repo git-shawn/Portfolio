@@ -28,11 +28,7 @@ export default function Rerouter() {
         <div className="invertedBox" id="aboutApp">
           <h2>Description</h2>
           <p>
-            If you've ever tried to search for a business, park, or any other
-            location on Google, you likely already know the issue. There is no
-            way to open those results in Apple Maps. Go ahead, try it right now.
-            Rerouter aims to solve that issue by automatically rerouting Google
-            Maps links to iOS and macOS's built in maps app.
+            Rerouter is a simple Safari Extension t
           </p>
         </div>
         <br></br>

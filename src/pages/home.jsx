@@ -279,12 +279,18 @@ export default function Home() {
         </div>
 
         {/* Outbound Links */}
-        
+
         <div id="links">
           <h3>Links</h3>
+
           <a href="https://github.com/git-shawn" className="iconHref wavy">
             <img src="https://cdn.glitch.global/de491910-0060-4fe1-87cc-7ff32c7bf88e/githubLogo.png?v=1678227758896" />
             GitHub
+          </a>
+
+          <a href="https://www.linkedin.com/in/s" className="iconHref wavy">
+            <img src="https://cdn.glitch.global/de491910-0060-4fe1-87cc-7ff32c7bf88e/layer1.png?v=1678229105715" />
+            LinkedIn
           </a>
         </div>
       </div>

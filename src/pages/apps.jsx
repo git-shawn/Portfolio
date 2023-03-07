@@ -4,14 +4,11 @@ import { Router, Link, useRoute } from "wouter";
 export default function Apps() {
   return (
     <div className="thinContainer">
-      <h1>My Apps</h1>
-      <p>
-        Write about my motivations to create apps.
-      </p>
+      <h1>Hi, I'm Shawn.</h1>
+      <p>I'm making native apps that I actually use for Apple devices. These apps are simple, lightweight, and respect your privacy.</p>
       <div className="appGrid">
-        
         {/* QR Pop */}
-        
+
         <Link href="/qrpop">
           <div className="appInfo">
             <div className="appIcon">
@@ -26,9 +23,9 @@ export default function Apps() {
             </div>
           </div>
         </Link>
-        
+
         {/* Rerouter */}
-        
+
         <Link href="/rerouter">
           <div className="appInfo">
             <div className="appIcon">
