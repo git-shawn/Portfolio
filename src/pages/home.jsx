@@ -42,7 +42,7 @@ export default function Home() {
           <div className="fourGrid">
             <div className="fourGridItem">
               <h2>Shawn Davis</h2>
-              <p class="subH2">Digital MarCom Professional</p>
+              <p className="subH2">Digital MarCom Professional</p>
             </div>
           </div>
           <br></br>
@@ -58,7 +58,7 @@ export default function Home() {
           <div className="fourGrid">
             <div className="fourGridDate">
               2016 - 2020<br></br>
-              <span class="location">Carbondale, IL</span>
+              <span className="location">Carbondale, IL</span>
             </div>
             <div className="fourGridItem">
               <b>Southern Illinois University</b>
@@ -73,7 +73,7 @@ export default function Home() {
           <div className="fourGrid">
             <div className="fourGridDate">
               2022 - Now<br></br>
-              <span class="location">Remote</span>
+              <span className="location">Remote</span>
             </div>
             <div className="fourGridItem">
               <b>Cody Dieruf Foundation</b>
@@ -93,7 +93,7 @@ export default function Home() {
           <div className="fourGrid">
             <div className="fourGridDate">
               2022<br></br>
-              <span class="location">St. Louis, MO</span>
+              <span className="location">St. Louis, MO</span>
             </div>
             <div className="fourGridItem">
               <b>
@@ -113,10 +113,17 @@ export default function Home() {
                 <span>Email</span>
                 <span>GA4</span>
               </div>
-              <a href="https://www.bamsl.org/?pg=business" class="link">
+              <a
+                href="https://www.bamsl.org/?pg=business"
+                className="link wavy"
+                data-text="Business Landing Page"
+              >
                 Business Landing Page
               </a>
-              <a href="https://www.bamsl.org/?pg=BarFoundation" class="link">
+              <a
+                href="https://www.bamsl.org/?pg=BarFoundation"
+                className="link wavy"
+              >
                 Foundation Web Section
               </a>
             </div>
@@ -125,7 +132,7 @@ export default function Home() {
           <div className="fourGrid">
             <div className="fourGridDate">
               2021 - 2022<br></br>
-              <span class="location">Bozeman, MT</span>
+              <span className="location">Bozeman, MT</span>
             </div>
             <div className="fourGridItem">
               <b>AmeriCorps VISTA - Cody Dieruf Foundation</b>
@@ -145,16 +152,22 @@ export default function Home() {
                 <span>MailChimp</span>
                 <span>GA4</span>
               </div>
-              <a href="https://breathinisbelievin.org/plate/" class="link">
+              <a
+                href="https://breathinisbelievin.org/plate/"
+                className="link wavy"
+              >
                 Specialty License Plate
               </a>
               <a
                 href="https://breathinisbelievin.org/pages/wp-content/uploads/2021/07/CDF-Brochure.pdf"
-                class="link"
+                className="link wavy"
               >
                 Outreach Materials
               </a>
-              <a href="https://www.instagram.com/p/CUYVen_MjcB" class="link">
+              <a
+                href="https://www.instagram.com/p/CUYVen_MjcB"
+                className="link wavy"
+              >
                 Direct Marketing
               </a>
             </div>
@@ -163,7 +176,7 @@ export default function Home() {
           <div className="fourGrid">
             <div className="fourGridDate">
               2020<br></br>
-              <span class="location">Carbondale, IL</span>
+              <span className="location">Carbondale, IL</span>
             </div>
             <div className="fourGridItem">
               <b>Creative Director - Saluki AdLab</b>
@@ -186,19 +199,19 @@ export default function Home() {
               </div>
               <a
                 href="https://www.salukiadlab.com/post/the-daily-egyptian"
-                class="link"
+                className="link wavy"
               >
                 Daily Egyptian App
               </a>
               <a
                 href="https://www.salukiadlab.com/post/community-health-partnership"
-                class="link"
+                className="link wavy"
               >
                 2020 Census Outreach
               </a>
               <a
                 href="https://www.salukiadlab.com/post/cool-spoons"
-                class="link"
+                className="link wavy"
               >
                 Cool Spoons Online
               </a>
