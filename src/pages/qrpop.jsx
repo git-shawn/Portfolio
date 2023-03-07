@@ -40,8 +40,19 @@ export default function QRPop() {
         <div className="invertedBox" id="aboutApp">
           <h2>Description</h2>
           <p>
-            QR Pop is the easiest way to make QR codes for anything, anywhere.
+            QR Pop can transform links into QR codes from almost anywhere in iOS
+            and macOS. If you're browsing the web, you can take advantage of the
+            built-in Safari Extension to see a code for the website you're
+            visiting. Most importantly?
           </p>
+          <p>
+            In other apps, QR Pop offers a Share Sheet Extension that can turn
+            links into codes for a variety of apps. Inside the QR Pop app, you
+            can go beyond links and generate codes for contacts, wifi networks,
+            locations, and more. Built in design features empower you to
+            customize your code to your liking.
+          </p>
+          <p>QR Pop is free, private, and has no ads.</p>
         </div>
         <br></br>
         <div className="invertedBox" id="privacyPolicy">
