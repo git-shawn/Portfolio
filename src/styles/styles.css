@@ -171,6 +171,10 @@ img.rounded {
   font-size: 12px;
 }
 
+.appGrid {
+  padding: 10px;
+}
+
 .appInfo {
   max-width: 400px;
   max-height: 125px;
@@ -187,6 +191,12 @@ img.rounded {
   -o-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
   display: grid;
+  cursor: pointer;
+}
+
+.appMeta > p {
+  margin: 0;
+  opacity: 0.8;
 }
 
 .appInfo:hover {
@@ -196,6 +206,7 @@ img.rounded {
 
 .appIcon {
   margin: auto 0;
+  max-height: 114px;
 }
 
 .appIcon > img {
