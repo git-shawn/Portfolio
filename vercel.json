@@ -1,0 +1,8 @@
+{
+    "rewrites":  [
+      {"source": "/)", "destination": "/"},
+      {"source": "/apps)", "destination": "/"},
+      {"source": "/qrpop)", "destination": "/"},
+      {"source": "/rerouter)", "destination": "/"}
+    ]
+}
