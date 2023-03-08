@@ -1,6 +1,8 @@
 import * as React from "react";
 import { Router, Link, useRoute } from "wouter";
 
+import qrPopIcon from "./src/assets/qrPopApp.png";
+
 export default function Apps() {
   return (
     <>
@@ -22,7 +24,7 @@ export default function Apps() {
             <div className="appInfo">
               <div className="appIcon">
                 <img
-                  src={("./src/assets/qrPopApp.png")}
+                  src={qrPopIcon}
                   alt="QR Pop App Icon"
                 />
               </div>
