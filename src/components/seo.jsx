@@ -3,8 +3,6 @@ import SEO from "../seo.json";
 import { Helmet } from 'react-helmet-async';
 
 const Seo = () => {
-  const url = window.location.hostname;
-  
   return <Helmet>
     <title>{SEO.title}</title>
 
@@ -13,7 +11,7 @@ const Seo = () => {
       content={SEO.description}
     />
     <meta name="robots" content="index,follow" />
-    <link rel="canonical" href={url} />
+    <link rel="canonical" href="https://www.fromshawn.dev" />
     <meta property="og:title" content={SEO.title} />
     <meta property="og:type" content="article" />
     <meta property="og:url" content={url} />
