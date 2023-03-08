@@ -1,7 +1,7 @@
 {
   "name": "shawn-portfolio",
   "version": "0.0.5",
-  "description": "My professional website hosted on Glitch.",
+  "description": "My professional website.",
   "scripts": {
     "start": "vite",
     "build": "vite build",
@@ -17,18 +17,5 @@
   },
   "devDependencies": {
     "vite": "^4.0.0"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead"
-  ],
-  "engines": {
-    "node": "14.x"
-  },
-  "repository": {
-    "url": "https://glitch.com/edit/#!/glitch-hello-react"
-  },
-  "glitch": {
-    "projectType": "generated_static"
   }
 }

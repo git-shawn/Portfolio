@@ -22,7 +22,7 @@ export default function Apps() {
             <div className="appInfo">
               <div className="appIcon">
                 <img
-                  src="https://cdn.glitch.global/de491910-0060-4fe1-87cc-7ff32c7bf88e/qrPopApp.png?v=1678221258807"
+                  src="src/assets/qrPopApp.png"
                   alt="QR Pop App Icon"
                 />
               </div>
@@ -39,7 +39,7 @@ export default function Apps() {
             <div className="appInfo">
               <div className="appIcon">
                 <img
-                  src="https://cdn.glitch.global/de491910-0060-4fe1-87cc-7ff32c7bf88e/rerouterApp.webp?v=1678222179149"
+                  src="src/assets/rerouterApp.webp"
                   alt="Rerouter Icon"
                 />
               </div>
