@@ -1,6 +1,8 @@
 import * as React from "react";
 import TextLoop from "react-text-loop";
 
+import githubLogo from "/src/assets/githubLogo.png";
+
 export default function QRPop() {
   return (
     <>
@@ -33,7 +35,7 @@ export default function QRPop() {
         </div>
         <div className="viewGithub">
           <a href="https://github.com/git-shawn/QR-Pop">
-            <img src="https://cdn.glitch.global/de491910-0060-4fe1-87cc-7ff32c7bf88e/githubLogo.png?v=1678227758896" />
+            <img src={githubLogo} />
             View Project on GitHub
           </a>
         </div>

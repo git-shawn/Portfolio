@@ -1,7 +1,8 @@
 import * as React from "react";
-import { Router, Link, useRoute } from "wouter";
+import { Link } from "wouter";
 
 import qrPopIcon from "/src/assets/qrPopApp.png";
+import rerouterIcon from "/src/assets/rerouterApp.webp";
 
 export default function Apps() {
   return (
@@ -41,7 +42,7 @@ export default function Apps() {
             <div className="appInfo">
               <div className="appIcon">
                 <img
-                  src={("./src/assets/rerouterApp.webp")}
+                  src={rerouterIcon}
                   alt="Rerouter Icon"
                 />
               </div>

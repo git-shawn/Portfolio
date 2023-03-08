@@ -1,22 +1,14 @@
-import React, { useState, useEffect } from "react";
-import { Link } from "wouter";
+import React from "react";
 import TextLoop from "react-text-loop";
 
+import githubLogo from "/src/assets/githubLogo.png";
+import linkedinLogo from "/src/assets/linkedInLogo.png";
+import ga4Cert from "/src/assets/gaCert.png";
+import gadsCert from "/src/assets/gAdsCert.png";
+import swiftUICert from "/src/assets/100SwiftCert.png";
+import swiftUIFullCert from "/src/assets/swiftFullCert.jpg";
+
 export default function Home() {
-  const [index, setIndex] = useState(0);
-  const [subIndex, setSubIndex] = useState(0);
-  const [reverse, setReverse] = useState(false);
-
-  const words = [
-    "Hello!",
-    "¡Hola!",
-    "Salut!",
-    "你好!",
-    "Aloha!",
-    "Ciao!",
-    "Hi!",
-  ];
-
   return (
     <>
       <div className="thinContainer">
@@ -240,7 +232,7 @@ export default function Home() {
                 <img
                   className="rounded"
                   alt="Google Analytics Certification"
-                  src="https://cdn.glitch.global/de491910-0060-4fe1-87cc-7ff32c7bf88e/gacert.png?v=1678206954987"
+                  src={ga4Cert}
                 />
               </a>
             </div>
@@ -249,16 +241,16 @@ export default function Home() {
                 <img
                   className="rounded"
                   alt="Google Ads - Measurement Certification"
-                  src="https://cdn.glitch.global/de491910-0060-4fe1-87cc-7ff32c7bf88e/gAdsCert.png?v=1678207622285"
+                  src={gadsCert}
                 />
               </a>
             </div>
             <div className="certItem">
-              <a href="https://cdn.glitch.global/de491910-0060-4fe1-87cc-7ff32c7bf88e/swiftFullCert.jpg?v=1678208575153">
+              <a href={swiftUIFullCert}>
                 <img
                   className="rounded"
                   alt="100 Days of Swift Certification"
-                  src="https://cdn.glitch.global/de491910-0060-4fe1-87cc-7ff32c7bf88e/100SwiftCert.png?v=1678208562805"
+                  src={swiftUICert}
                 />
               </a>
             </div>
@@ -271,12 +263,12 @@ export default function Home() {
           <h3>Links</h3>
 
           <a href="https://github.com/git-shawn" className="iconHref wavy">
-            <img src="https://cdn.glitch.global/de491910-0060-4fe1-87cc-7ff32c7bf88e/githubLogo.png?v=1678227758896" />
+            <img src={githubLogo} />
             GitHub
           </a>
 
           <a href="https://www.linkedin.com/in/s" className="iconHref wavy">
-            <img src="https://cdn.glitch.global/de491910-0060-4fe1-87cc-7ff32c7bf88e/layer1.png?v=1678229105715" />
+            <img src={linkedinLogo} />
             LinkedIn
           </a>
         </div>

@@ -8,22 +8,12 @@
   --qrpop-orange: #ff861a;
   --wrapper-height: 85vh;
   --image-max-width: 320px;
-  --font-family: "HK Grotesk";
-  --font-family-header: "HK Grotesk";
+  --font-family: "Hanken Grotesk", sans-serif;
+  --font-family-header: "Hanken Grotesk", sans-serif;
 }
 
 /* Import fonts */
-@font-face {
-  font-family: HK Grotesk;
-  src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Regular.otf?v=1603136326027")
-    format("opentype");
-}
-@font-face {
-  font-family: HK Grotesk;
-  font-weight: bold;
-  src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Bold.otf?v=1603136323437")
-    format("opentype");
-}
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;700&display=swap');
 
 html {
   background-color: var(--color-bg);
@@ -91,7 +81,7 @@ p {
   margin-left: 10px;
   width: 12px;
   height: 12px;
-  background: url("https://cdn.glitch.global/de491910-0060-4fe1-87cc-7ff32c7bf88e/linkArrow.svg")
+  background: url("/src/assets/linkArrow.svg")
     0 0 no-repeat;
   background-size: contain;
   -webkit-transition: transform 0.25s ease-in-out;
