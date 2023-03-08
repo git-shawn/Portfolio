@@ -20,9 +20,9 @@ export default function Home() {
       <Seo />
       <header className="header">
         <ul className="nav">
-          <ActiveLink href="/">Home</ActiveLink>|
-          <ActiveLink href="/apps">Apps</ActiveLink>|
-          <a href="mailto:contact@fromshawn.dev">Contact Me</a>
+          <li><ActiveLink href="/">Home</ActiveLink></li>
+          <li><ActiveLink href="/apps">Apps</ActiveLink></li>
+          <li><a href="mailto:contact@fromshawn.dev">Contact Me</a></li>
         </ul>
       </header>
       <main role="main" className="wrapper">

@@ -20,7 +20,7 @@ export default function Home() {
             </div>
           </div>
           <br></br>
-          <h3>About</h3>
+          <h2>About</h2>
           <p>
             <TextLoop
               children={[
@@ -38,15 +38,14 @@ export default function Home() {
           </p>
         </div>
         <div id="education">
-          <h3>Education</h3>
+          <h2>Education</h2>
           <div className="fourGrid">
             <div className="fourGridDate">
               2016 - 2020<br></br>
               <span className="location">Carbondale, IL</span>
             </div>
             <div className="fourGridItem">
-              <b>Southern Illinois University</b>
-              <br></br>
+              <h3>Southern Illinois University</h3>
               B.S. Journalism (Advertising)<br></br>
               Minor Computer Science
             </div>
@@ -56,15 +55,14 @@ export default function Home() {
         {/* Volunteer */}
 
         <div id="volunteer">
-          <h3>Volunteerism</h3>
+          <h2>Volunteerism</h2>
           <div className="fourGrid">
             <div className="fourGridDate">
               2022 - Now<br></br>
               <span className="location">Remote</span>
             </div>
             <div className="fourGridItem">
-              <b>Cody Dieruf Foundation</b>
-              <br></br>
+              <h3>Cody Dieruf Foundation</h3>
               WordPress content management and general maintenance
               <div className="skillPills">
                 <span>HTML</span>
@@ -79,7 +77,7 @@ export default function Home() {
         {/* Work Experience */}
 
         <div id="work">
-          <h3>Work Experience</h3>
+          <h2>Work Experience</h2>
 
           {/* BAMSL */}
 
@@ -89,11 +87,10 @@ export default function Home() {
               <span className="location">St. Louis, MO</span>
             </div>
             <div className="fourGridItem">
-              <b>
+              <h3>
                 Digital Marketing Specialist - Bar Association of Metropolitan
                 St. Louis
-              </b>
-              <br></br>
+              </h3>
               Implemented GA4, created engaging web experiences, enhanced email
               marketing, and developed social media content calendars.
               <div className="skillPills">
@@ -131,8 +128,7 @@ export default function Home() {
               <span className="location">Bozeman, MT</span>
             </div>
             <div className="fourGridItem">
-              <b>AmeriCorps VISTA - Cody Dieruf Foundation</b>
-              <br></br>
+              <h3>AmeriCorps VISTA - Cody Dieruf Foundation</h3>
               Created marketing materials and strategies targeting both donors
               and constituents.
               <div className="skillPills">
@@ -180,8 +176,7 @@ export default function Home() {
               <span className="location">Carbondale, IL</span>
             </div>
             <div className="fourGridItem">
-              <b>Creative Director - Saluki AdLab</b>
-              <br></br>
+              <h3>Creative Director - Saluki AdLab</h3>
               Worked alongside a team of student creatives and marketers to
               deliver high-quality advertising services to clients.
               <div className="skillPills">
@@ -225,7 +220,7 @@ export default function Home() {
         {/* Certifications */}
 
         <div id="certs">
-          <h3>Certifications</h3>
+          <h2>Certifications</h2>
           <div className="certGrid">
             <div className="certItem">
               <a href="https://skillshop.credential.net/2d72e39e-9cd3-449f-ad50-bf539b182cbb#gs.rdkc2o">
@@ -260,15 +255,15 @@ export default function Home() {
         {/* Outbound Links */}
 
         <div id="links">
-          <h3>Links</h3>
+          <h2>Links</h2>
 
           <a href="https://github.com/git-shawn" className="iconHref wavy">
-            <img src={githubLogo} />
+            <img src={githubLogo} alt=""/>
             GitHub
           </a>
 
           <a href="https://www.linkedin.com/in/s" className="iconHref wavy">
-            <img src={linkedinLogo} />
+            <img src={linkedinLogo} alt=""/>
             LinkedIn
           </a>
         </div>
