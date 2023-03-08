@@ -20,10 +20,8 @@ export default function Home() {
       <Seo />
       <header className="header">
         <ul className="nav">
-          <ActiveLink href="/">Home</ActiveLink>
-          |
-          <ActiveLink href="/apps">Apps</ActiveLink>
-          |
+          <ActiveLink href="/">Home</ActiveLink>|
+          <ActiveLink href="/apps">Apps</ActiveLink>|
           <a href="mailto:contact@fromshawn.dev">Contact Me</a>
         </ul>
       </header>
@@ -32,6 +30,10 @@ export default function Home() {
           <PageRouter />
         </div>
       </main>
+      <footer className="footer">
+        <p>This website was written in React and is hosted on Glitch.</p>
+        <a href="https://glitch.com/~shawn-portfolio">Check out the source code!</a>
+      </footer>
     </Router>
   );
 }
