@@ -306,7 +306,7 @@ img.rounded:hover {
   background-repeat: no-repeat;
   background-position: top;
   background-size: 300px;
-  background-image: url("https://cdn.glitch.global/de491910-0060-4fe1-87cc-7ff32c7bf88e/phone-route-light.png?v=1678227631686");
+  background-image: url("/src/assets/phone-route-light.png");
 }
 
 .qrpopHero {
@@ -317,7 +317,7 @@ img.rounded:hover {
   background-repeat: no-repeat;
   background-position: top;
   background-size: 300px;
-  background-image: url("https://cdn.glitch.global/de491910-0060-4fe1-87cc-7ff32c7bf88e/qr-route-light.png?v=1678227628725");
+  background-image: url("/src/assets/qr-route-light.png");
 }
 
 .appTitle {
