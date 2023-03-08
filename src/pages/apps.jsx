@@ -22,7 +22,7 @@ export default function Apps() {
             <div className="appInfo">
               <div className="appIcon">
                 <img
-                  src={require('./src/assets/qrPopApp.png')}
+                  src={("./src/assets/qrPopApp.png")}
                   alt="QR Pop App Icon"
                 />
               </div>
@@ -39,7 +39,7 @@ export default function Apps() {
             <div className="appInfo">
               <div className="appIcon">
                 <img
-                  src={require('./src/assets/rerouterApp.webp')}
+                  src={("./src/assets/rerouterApp.webp")}
                   alt="Rerouter Icon"
                 />
               </div>
