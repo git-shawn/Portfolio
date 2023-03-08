@@ -1,5 +1,7 @@
 import * as React from "react";
 
+import githubLogo from "/src/assets/githubLogo.png";
+
 export default function Rerouter() {
   return (
     <>
