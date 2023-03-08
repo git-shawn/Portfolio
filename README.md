@@ -1,6 +1,6 @@
 # fromshawn.dev
 
-Hello! This React website is my professional portfolio and personal app development portfolio. Inside, you'll find details regarding my work experience, volunteerism, projects completed, and apps developed as well as links to my certificates, GitHub, and LinkedIn.
+Hello! This React website is my professional portfolio and personal app development portfolio hosted on [Glitch](https://glitch.com/). Inside, you'll find details regarding my work experience, volunteerism, projects completed, and apps developed as well as links to my certificates, GitHub, and LinkedIn.
 
 Feel free to peak around and incorporate any ideas I've used in your portfolio!
 
