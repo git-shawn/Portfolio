@@ -14,9 +14,10 @@ Feel free to peak around and incorporate any ideas I've used in your portfolio!
 
 ← `src/pages/rerouter.jsx` This is the landing page for Rerouter, a Safari Extension that opens Google Maps links in Apple Maps. It includes a short description, download link, and privacy policy.
 
-## Components
+## Components 🧱
+
+These components are adapted from Glitch's convenient React starter project.
 
 ← `components/router.jsx`: This component manages the page routing for `fromshawn.dev` using `wouter`.
 
-← `components/seo.jsx`: This component manages the page routing for `fromshawn.dev` using `wouter`.
-
+← `components/seo.jsx`: This component appends SEO meta data to the site based on the contents of `seo.json`.
