@@ -281,6 +281,12 @@ export default function Home() {
           </a>
         </div>
       </div>
+      <footer className="footer">
+        <p>This website was written in React and is hosted on Glitch.</p>
+        <a href="https://glitch.com/~shawn-portfolio">
+          Check out the source code!
+        </a>
+      </footer>
     </>
   );
 }

@@ -41,7 +41,7 @@ export default function Rerouter() {
           </p>
         </div>
         <br></br>
-        <div className="invertedBox" id="privacyPolicy">
+        <div className="invertedBox" id="privacy">
           <h2>Privacy Policy</h2>
           <p>
             Convenience shouldn't come at the cost of privacy. Rerouter doesn't
