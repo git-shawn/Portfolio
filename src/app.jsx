@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Router, Link, useRoute } from "wouter";
+import { Analytics } from '@vercel/analytics/react';
 
 import "./styles/styles.css";
 import PageRouter from "./components/router.jsx";
@@ -30,6 +31,7 @@ export default function Home() {
           <PageRouter />
         </div>
       </main>
+      <Analytics />
     </Router>
   );
 }
