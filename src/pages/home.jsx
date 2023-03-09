@@ -262,7 +262,7 @@ export default function Home() {
             GitHub
           </a>
 
-          <a href="https://www.linkedin.com/in/s" className="iconHref wavy">
+          <a href="https://www.linkedin.com/in/shawnfdavis/" className="iconHref wavy">
             <img src={linkedinLogo} alt=""/>
             LinkedIn
           </a>
