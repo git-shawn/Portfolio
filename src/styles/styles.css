@@ -237,6 +237,10 @@ img.rounded:hover {
   cursor: pointer;
 }
 
+.appMeta > h2 {
+  margin: 0;
+}
+
 .appMeta > p {
   margin: 0;
   opacity: 0.75;
